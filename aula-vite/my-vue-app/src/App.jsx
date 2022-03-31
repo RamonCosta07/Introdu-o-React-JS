@@ -3,6 +3,7 @@ import logo from './logo.svg'
 import './App.css'
 import Contador from './Contador.jsx';
 import Links from './Links.jsx';
+import Pagina from './Pagina.jsx';
 
 export default function App() {
 
@@ -10,7 +11,9 @@ export default function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello World</p>
+        <p>
+          <Pagina />
+        </p>
         <p>
           <Contador />
         </p>
